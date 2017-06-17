@@ -1,7 +1,7 @@
 {
   "name": "Weston Lacrosse",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.1.2",
+  "description": "AF-MSA implementation for Weston Lacrosse",
   "author": "",
   "main": "main.js",
   "scripts": {

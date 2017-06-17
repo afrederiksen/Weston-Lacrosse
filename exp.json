@@ -1,12 +1,12 @@
 {
   "name": "Weston Lacrosse",
-  "description": "A News and Schedule interface for Weston Lacrosse",
+  "description": "AF-MSA implementation for Weston Lacrosse",
   "slug": "westonlax",
   "privacy": "public",
   "sdkVersion": "17.0.0",
-  "version": "1.0.0",
+  "version": "1.1.2",
   "orientation": "portrait",
-  "primaryColor": "#cccccc",
+  "primaryColor": "#1c1948",
   "icon": "./assets/icons/app-icon.png",
   "notification": {
     "icon": "./assets/icons/notification-icon.png",

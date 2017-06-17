@@ -27,7 +27,7 @@ export default class RootNavigation extends React.Component {
       <TabNavigation tabBarHeight={56} initialTab="links">
         <TabNavigationItem
           id="home"
-          renderIcon={isSelected => this._renderIcon('book', isSelected)}>
+          renderIcon={isSelected => this._renderIcon('newspaper-o', isSelected)}>
           <StackNavigation initialRoute="home" />
         </TabNavigationItem>
 
@@ -80,9 +80,12 @@ export default class RootNavigation extends React.Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#1c1948',
   },
   selectedTab: {
     color: Colors.tabIconSelected,
   },
+  navTitle: {
+      color: 'white', // changing navbar title color
+    },
 });
